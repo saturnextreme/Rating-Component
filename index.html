@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="resource/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <main>
+    <div class="card one">
+      <div class="heading">
+        <div class="acimg">
+          <img src="./images/icon-star.svg" rel="star" class="image"/>
+        </div>
+        <h1>How did we do?</h1>
+      </div>
+      <div class="data">
+        <p>
+          Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+          offering!
+        </p>
+      </div>
+      <div class="rating txt-center">
+        <span><button id="1" class="rating-btn">1</button></span>
+        <span><button id="2" class="rating-btn">2</button></span>
+        <span><button id="3" class="rating-btn">3</button></span>
+        <span><button id="4" class="rating-btn">4</button></span>
+        <span><button id="5" class="rating-btn">5</button></span>
+      </div>
+      <button class="sbmt">Submit</button>
+    </div>
+    <div class="card txt-center two hidden">
+      <div class="heading">
+        <div class="acimg">
+          <img src="./images/illustration-thank-you.svg" rel="thank you!" class="image2"/>
+        </div>
+        <div class="value">You Selected <span class="add-text">1</span> out of 5</div>
+        <h1>Thank You!</h1>
+      </div>
+      <div class="data">
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+  </main>
+  <script src="resource/app.js"></script>
+</body>
+
+</html>
